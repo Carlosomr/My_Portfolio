@@ -30,12 +30,17 @@ div{
 strong{
     background:  ${({ theme}) => theme.COLORS.GRAY_50};
     margin: auto;
+    font-weight: 500;
+    font-size: 18px;
+    
 }
     
 span {
     background:  ${({ theme}) => theme.COLORS.GRAY_50};
     margin: auto;
     color:  ${({ theme}) => theme.COLORS.GREEN};
+    font-weight: 500;
     
 }
+
 `;

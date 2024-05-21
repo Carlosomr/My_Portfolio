@@ -10,6 +10,7 @@ export default {
       GRAY_40: "#000000",
       GRAY_50: "#1C1C1C",
       GRAY_100: "#999591",
+      GRAY_150: "#ffffff9c",
       GRAY_200: "#363535",
       GRAY_300: "#666360",
   
