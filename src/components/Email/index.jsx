@@ -26,7 +26,7 @@ export const ContactUs = () => {
           // Mostra o popup de sucesso
 
           setShowSuccessPopup(true);
-          window.location.reload();
+
 
         },
         (error) => {
@@ -53,7 +53,7 @@ export const ContactUs = () => {
       {showSuccessPopup && (
         <div style={{ position: 'fixed', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', backgroundColor: '#1C1C1C', padding: '30px', borderRadius: '8px', border:' 1px solid ' , zIndex: 1000 }}>
           <p>Email enviado com sucesso!</p>
-          <button onClick={() => setShowSuccessPopup(false)}>Fechar</button>
+          <button onClick={() => { setShowSuccessPopup(false); window.location.reload(); }}>Fechar</button>
         </div>
       )}
     </Container>
