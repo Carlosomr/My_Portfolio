@@ -21,6 +21,7 @@ input{
     border-radius: 4px;
     border: none;
     width: 90%;
+    height: 25px;
     margin: auto;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -41,6 +42,7 @@ textarea{
     border-radius: 8px;
     color: ${({ theme}) => theme.COLORS.GREEN} ;
     margin-top: 8px;
+    height: 90px;
 }
 Button{
     background: ${({ theme}) => theme.COLORS.GREEN};

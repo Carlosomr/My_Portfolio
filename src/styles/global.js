@@ -11,6 +11,13 @@ export default createGlobalStyle`
     font-size: 16px;
     -webkit-font-smoothing: antialiased; 
     font-weight: 400;
+    :focus{
+        outline: transparent;
+        box-shadow: 0 0 0 2px #00875f;
+    }
+    :root{
+        font-size: 87.5% ;
+    }
     
 }
 

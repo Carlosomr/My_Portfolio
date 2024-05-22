@@ -31,7 +31,7 @@ export const ContactUs = () => {
 
     
     <form ref={form} onSubmit={sendEmail}>
-      <legend>Fale comigo</legend>
+      <legend>Entre em contato </legend>
       <label>Nome:</label>
       <input type="text" name="to_name" />
       <label>Email:</label>
