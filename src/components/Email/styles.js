@@ -54,6 +54,9 @@ Button{
     border-radius: 8px;
     font-weight: 300;
 }
+div > {
+    background: ${({ theme}) => theme.COLORS.WHITE};
+}
 `;
 
 
