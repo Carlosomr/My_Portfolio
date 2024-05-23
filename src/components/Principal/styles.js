@@ -35,7 +35,7 @@ p{
     color: ${({ theme}) => theme.COLORS.GRAY_150} ;
     }
 
-> Button{
+> Button {
     background: ${({ theme}) => theme.COLORS.GREEN};
     color: ${({ theme}) => theme.COLORS.WHITE} ;
     width: 150px;

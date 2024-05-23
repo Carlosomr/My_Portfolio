@@ -10,6 +10,18 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+     // Verifica se todos os campos necessários estão preenchidos
+  const obrigatorio = [
+    form.current.elements.namedItem('to_name').value,
+    form.current.elements.namedItem('from_name').value,
+    form.current.elements.namedItem('message').value,
+  ].every(Boolean);
+
+  if (!obrigatorio) {
+    alert('Por favor, preencha todos os campos.');
+    return;
+  }
+
     emailjs
      .sendForm(
         'service_5d9evh9',
