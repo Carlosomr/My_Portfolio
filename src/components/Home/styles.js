@@ -46,6 +46,11 @@ export const ContainerHome = styled.div `
     div{
       display: flex;
       flex-direction: column;
+      border: solid red;
     }
+  img{
+    margin: auto;
+    width: 300px;
+  }
   }
 `;

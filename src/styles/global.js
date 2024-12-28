@@ -18,6 +18,8 @@ export default createGlobalStyle`
     :root{
         font-size: 87.5% ;
     }
+
+
     
 }
 

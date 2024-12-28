@@ -67,6 +67,9 @@ p{
     img{
         width:100%;
     }
+    p{
+        line-height: 20px;
+    }
     
   }
 `;
