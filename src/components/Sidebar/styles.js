@@ -2,45 +2,25 @@ import styled from "styled-components";
 
 export const Container = styled.div``;
 export const Aside = styled.aside`
-> img {
-    margin: auto ;
-    margin-top: 50px;
-    width: 156px;
-    height: 156px;
-    border-radius:50%;
-    border: 2.5px solid ${({ theme}) => theme.COLORS.GRAY_300};
 
-}
-display: flex;
-flex-direction: column;
-width: 90%;
-margin: auto ;
-margin-top: 50px;
-border-radius: 8px; 
-background:  ${({ theme}) => theme.COLORS.GRAY_50} ;
-border: solid ${({ theme}) => theme.COLORS.GRAY_50} ;
+
 div{
-    display: flex;
-    flex-direction: column;
-    background:  ${({ theme}) => theme.COLORS.GRAY_50};
-    margin-top: 5px;
+    margin: auto;
     padding: 25px;
-    gap: 10px;
+    background: ${({ theme}) => theme.COLORS.WHITE};
 }
-strong{
-    background:  ${({ theme}) => theme.COLORS.GRAY_50};
-    margin: auto;
-    font-weight: 500;
-    font-size: 18px;
-    
+ul{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    list-style: none;
+    background: ${({ theme}) => theme.COLORS.WHITE};
 }
-    
-span {
-    background:  ${({ theme}) => theme.COLORS.GRAY_50};
-    margin: auto;
-    color:  ${({ theme}) => theme.COLORS.GREEN};
-    font-weight: 500;
-    
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    background: ${({ theme}) => theme.COLORS.WHITE};
+    color: ${({ theme}) => theme.COLORS.BACKGROUND_900};
 }
 
 `;

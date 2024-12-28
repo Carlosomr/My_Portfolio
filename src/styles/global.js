@@ -5,7 +5,7 @@ export default createGlobalStyle`
     margin:0;
     padding:0;
     box-sizing:border-box;
-    background: ${({ theme}) => theme.COLORS.GRAY_40};
+    background: ${({ theme}) => theme.COLORS.BLACK};
     color: ${({ theme}) => theme.COLORS.WHITE};
     font-family: Roboto, sans-serif;
     font-size: 16px;
