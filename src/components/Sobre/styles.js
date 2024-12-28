@@ -59,4 +59,14 @@ p{
     padding: 10px;
 }
 
+@media (max-width: 800px){
+    
+      display: flex;
+      flex-direction: column;
+
+    img{
+        width:100%;
+    }
+    
+  }
 `;

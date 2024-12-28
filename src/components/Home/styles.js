@@ -41,4 +41,11 @@ export const ContainerHome = styled.div `
     
    
   }
+
+  @media (max-width: 800px){
+    div{
+      display: flex;
+      flex-direction: column;
+    }
+  }
 `;

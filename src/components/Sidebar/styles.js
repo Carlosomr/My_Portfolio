@@ -23,4 +23,12 @@ a{
     color: ${({ theme}) => theme.COLORS.BACKGROUND_900};
 }
 
+@media (max-width: 768px){
+    div{
+    margin: auto;
+    padding: 25px;
+    background: ${({ theme}) => theme.COLORS.WHITE};
+
+    }
+}
 `;
