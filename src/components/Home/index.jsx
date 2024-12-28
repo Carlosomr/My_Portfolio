@@ -6,8 +6,9 @@ export function Home (){
         <ContainerHome>
             
                 <div>
-                <p>Ajudando empresas a construírem <br/><strong>produtos digitais</strong> de forma moderna e <br></br>de alta qualidade.</p>
-                <img src={imagem} alt="Descrição da imagem" />
+                <p>Ajudando empresas a construírem <br/>
+                <strong>produtos digitais</strong> de forma moderna e <br></br>de alta qualidade.</p>
+                <img src={imagem} alt="Foto inicial do site" />
                 </div>
                 
             

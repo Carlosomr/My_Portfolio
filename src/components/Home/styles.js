@@ -38,6 +38,7 @@ export const ContainerHome = styled.div `
     object-fit: cover;
     margin: auto;
     animation: slide-in 2s forwards;
+    
    
   }
 `;

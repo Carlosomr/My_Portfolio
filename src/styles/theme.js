@@ -15,8 +15,10 @@ export default {
     GRAY_150: "#ffffff9c",
     GRAY_200: "#363535",
     GRAY_300: "#666360",
+    GRAY_800:"#161616",
     RED: "#FF002E",
     BLACK: "#000000", 
     LILAS: "#6959CD"
+
   }
 };
