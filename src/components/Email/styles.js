@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
 
-export const ContainerEmail = styled.footer `
-//border: solid blue;
+
+export const Container = styled.footer`
+
 display: flex;
 margin: auto;
+
+width: 100%;
 
 background: ${({ theme}) => theme.COLORS.WHITE};
 div{
@@ -19,7 +22,7 @@ div{
     flex-direction: column;
     margin: auto;
   //  border: solid red;
-    min-width: 550px;
+    width: 550px;
     background: ${({ theme}) => theme.COLORS.WHITE};
     color: ${({ theme}) => theme.COLORS.BLACK};
 }
@@ -68,43 +71,10 @@ Button{
     
     display: flex;
     flex-direction: column;
+    width: 100%;
    
 
 
-`;
-
-export const Container = styled.footer`
-
-display: flex;
-height: 400px;
-background: ${({ theme}) => theme.COLORS.WHITE};
-
-div{
-    background: ${({ theme}) => theme.COLORS.WHITE};
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    min-width: 350px;
-    
-}
-h1{
-    font-size: 1.5rem;
-    font-weight: 400;
-    background: ${({ theme}) => theme.COLORS.WHITE};
-    color: ${({ theme}) => theme.COLORS.BLACK};
-    
-    margin: 15px;
-}
-
-@media (max-width: 768px){
-    
-    display: flex;
-    flex-direction: column;
-   div{    
-    display: flex;
-    flex-direction: column;
-   
-   }
 
 `;
 

@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import { Container, ContainerEmail } from './styles';
+import { Container} from './styles';
 import { Button } from '../Button';
 
 export const ContactUs = () => {
@@ -49,11 +49,6 @@ export const ContactUs = () => {
 
   return (
     <Container>
-      <div>
-      <h1>Contate - me </h1>
-      </div>
-      
-      <ContainerEmail>
       <form ref={form} onSubmit={sendEmail}>
         <legend>Faça seu orçamento </legend>
         <label>Nome:</label>
@@ -74,7 +69,6 @@ export const ContactUs = () => {
         </div>
       )}
 
-      </ContainerEmail>
       
     </Container>
   );
