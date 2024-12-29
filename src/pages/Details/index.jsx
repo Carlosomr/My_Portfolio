@@ -5,6 +5,7 @@ import { Sidebar } from "../../components/Sidebar";
 import { Sobre } from "../../components/Sobre";
 import { Container } from "./style";
 
+
 export function Details() {
   
 
@@ -13,6 +14,7 @@ export function Details() {
       <Sidebar/>
       <Home/>
       <Sobre/>
+      <ContactUs/>
       
     </Container>
     

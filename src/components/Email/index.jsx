@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import { Container } from './styles';
+import { Container, ContainerEmail } from './styles';
 import { Button } from '../Button';
 
 export const ContactUs = () => {
@@ -49,8 +49,13 @@ export const ContactUs = () => {
 
   return (
     <Container>
+      <div>
+      <h1>Contate - me </h1>
+      </div>
+      
+      <ContainerEmail>
       <form ref={form} onSubmit={sendEmail}>
-        <legend>Entre em contato </legend>
+        <legend>Faça seu orçamento </legend>
         <label>Nome:</label>
         <input type="text" name="to_name" />
         <label>Email:</label>
@@ -68,6 +73,9 @@ export const ContactUs = () => {
           <button onClick={() => { setShowSuccessPopup(false); window.location.reload(); }}>Fechar</button>
         </div>
       )}
+
+      </ContainerEmail>
+      
     </Container>
   );
 };

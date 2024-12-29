@@ -9,7 +9,7 @@ export default {
     GREEN_3: "#00875f",
     WHITE: "#F4EDE8",
     ORANGE: "#FF9000",
-    GRAY_40: "#000000",
+    GRAY_40:"#e2e2e2",
     GRAY_50: "#1C1C1C",
     GRAY_100: "#999591",
     GRAY_150: "#ffffff9c",
