@@ -6,7 +6,6 @@ export const Container = styled.footer`
 
 display: flex;
 margin: auto;
-
 width: 100%;
 
 background: ${({ theme}) => theme.COLORS.WHITE};
@@ -15,14 +14,12 @@ div{
     flex-direction: column;
     
 }
-
-
 > form{
     display: flex;
     flex-direction: column;
     margin: auto;
   //  border: solid red;
-    width: 550px;
+    width: 100%;
     background: ${({ theme}) => theme.COLORS.WHITE};
     color: ${({ theme}) => theme.COLORS.BLACK};
 }
@@ -58,7 +55,7 @@ textarea{
 }
 Button{
     background: ${({ theme}) => theme.COLORS.GREEN};
-    width: 200px;
+    max-width: 200px;
     height: 35px;
     margin-top: 15px;
     color: ${({theme}) => theme.COLORS.WHITE};
@@ -72,7 +69,7 @@ Button{
     display: flex;
     flex-direction: column;
     width: 100%;
-   
+}
 
 
 
